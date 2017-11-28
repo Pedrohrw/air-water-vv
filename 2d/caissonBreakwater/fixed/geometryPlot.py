@@ -7,7 +7,7 @@ import csv
 # Put tankVertices and caissonVertices arrays here
 
 #tankVertices
-tv=np.array([[0.0, 0.0],
+tv=np.array([[0.10, 0.0],
  [0.38992935246580784, 0.0],
  [1.1697880573974235, 0.0],
  [1.3197880573974234, 0.075],
