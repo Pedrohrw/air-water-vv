@@ -103,15 +103,8 @@ class TestOscillatingCylinderTetgen(TestTools.AirWaterVVTest):
 
 
 
-        real_Data = 'exp_data.csv' #experimental data (40-45s)
-        exp_Data = at.readProbeFile(real_Data)
-        real_time = exp_Data[1] 
-        real_data = exp_Data[2]
-        real_cl = real_data[:,0]
-
-        exp_results = zeroCrossing(real_time,real_cl)
-        exp_T=exp_results[0]
-        exp_A=exp_results[1]
+        exp_T= 1.309
+        exp_A= 4.203
         
 
         gap = 0.85 # it can be changed
