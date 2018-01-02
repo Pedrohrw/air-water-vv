@@ -1,5 +1,5 @@
 import os
-os.chdir('2d/oscillating_cylinder_new')
+os.chdir('air-water-vv/2d/oscillating_cylinder_new')
 import pytest
 from proteus.iproteus import *
 from proteus import Comm

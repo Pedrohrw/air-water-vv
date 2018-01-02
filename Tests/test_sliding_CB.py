@@ -1,5 +1,5 @@
 import os
-os.chdir('2d/caissonBreakwater/sliding')
+os.chdir('air-water-vv/2d/caissonBreakwater/sliding')
 import pytest
 from proteus.iproteus import *
 from proteus import Comm
